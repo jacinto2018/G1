@@ -1,0 +1,156 @@
+<ion-header>
+  <ion-navbar >
+    <ion-buttons start>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    
+  </ion-buttons>
+    <ion-title style="background:white;" *ngIf="!isSearchbarOpened">
+      <img src="../assets/imgs/g1.jpg" style="width: 80px;">
+    </ion-title>
+    <ion-searchbar *ngIf="isSearchbarOpened" showCancelButton="true" (search)="onSearch($event)" (ionCancel)="isSearchbarOpened=false"></ion-searchbar>
+    <ion-buttons end>
+      <button ion-button icon-only   *ngIf="!isSearchbarOpened" (click)="isSearchbarOpened=true" >
+        <ion-icon name="search"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+  <ion-navbar>
+    <ion-title ><h6  style="color: #8b0000">TECNOLOGIA</h6></ion-title>
+  </ion-navbar>
+
+</ion-header>
+  <ion-content padding>
+    <ion-card>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="../assets/imgs/g1.jpg">
+        </ion-avatar>
+        <h2>Prejuízo BILIONÁRIO</h2>
+        <p>13/06/2018</p>
+      </ion-item>
+    
+      <img src="../assets/imgs/ll.jpg">
+    
+      <ion-card-content>
+        <p>Xiaomi, fabricante de smartphone apelidada de “Apple da China”, registrou prejuízo de US$ 1,1 bilhão no primeiro trimestre deste ano, mostram documentos entregues pela empresa à autoridade chinesa do mercado de capitais.</p>
+      </ion-card-content>
+    
+      <ion-row>
+        <ion-col>
+          <button ion-button icon-left clear small>
+            <ion-icon name="thumbs-up"></ion-icon>
+            <div>2.435</div>
+          </button>
+        </ion-col>
+    
+        <ion-col center text-center>
+          <ion-note>
+            URGENTE!
+          </ion-note>
+        </ion-col>
+      </ion-row>
+    
+    </ion-card>
+
+    <ion-card>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="../assets/imgs/g1.jpg">
+        </ion-avatar>
+        <h2>Amazon</h2>
+        <p>13/06/2018</p>
+      </ion-item>
+    
+      <img src="../assets/imgs/cccc.jpg">
+    
+      <ion-card-content>
+        <p>Foxconn investiga condições de trabalho em fábrica na China que produz Echo e Kindle para a Amazon
+          Funcionários fizeram até 100 horas extras por mês na fábrica da Foxconn; alguns chegaram a trabalhar 14 dias seguidos.</p>
+      </ion-card-content>
+    
+      <ion-row>
+        <ion-col>
+          <button ion-button icon-left clear small>
+            <ion-icon name="thumbs-up"></ion-icon>
+            <div>2.435</div>
+          </button>
+        </ion-col>
+    
+        <ion-col center text-center>
+          <ion-note>
+            URGENTE!
+          </ion-note>
+        </ion-col>
+      </ion-row>
+    
+    </ion-card>
+    <ion-card>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="../assets/imgs/g1.jpg">
+        </ion-avatar>
+        <h2>Super Smash Bros</h2>
+        <p>13/06/2018</p>
+      </ion-item>
+    
+      <img src="../assets/imgs/nn.jpg">
+    
+      <ion-card-content>
+        <p>Ultimate' terá todos os personagens que já apareceram na série e chega em 7 de dezembro
+          Nintendo fez longa apresentação sobre novo game de luta em vídeo exibido antes da E3 2018. Empresa também revelou 'Super Mario Party' para Switch.</p>
+      </ion-card-content>
+    
+      <ion-row>
+        <ion-col>
+          <button ion-button icon-left clear small>
+            <ion-icon name="thumbs-up"></ion-icon>
+            <div>2.435</div>
+          </button>
+        </ion-col>
+    
+        <ion-col center text-center>
+          <ion-note>
+            URGENTE!
+          </ion-note>
+        </ion-col>
+      </ion-row>
+    
+    </ion-card>
+    <ion-card>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="../assets/imgs/g1.jpg">
+        </ion-avatar>
+        <h2>WhatsApp</h2>
+        <p>13/06/2018</p>
+      </ion-item>
+    
+      <img src="../assets/imgs/bbbb.jpg">
+    
+      <ion-card-content>
+        <p>Como os golpistas ganham dinheiro com as fraudes no WhatsApp?.</p>
+      </ion-card-content>
+    
+      <ion-row>
+        <ion-col>
+          <button ion-button icon-left clear small>
+            <ion-icon name="thumbs-up"></ion-icon>
+            <div>2.435</div>
+          </button>
+        </ion-col>
+    
+        <ion-col center text-center>
+          <ion-note>
+            URGENTE!
+          </ion-note>
+        </ion-col>
+      </ion-row>
+    
+    </ion-card>
+  </ion-content>

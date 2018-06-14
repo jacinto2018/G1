@@ -1,0 +1,62 @@
+
+<ion-header>
+  
+  <ion-navbar >
+    <ion-buttons start>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    
+  </ion-buttons>
+    <ion-title style="background:white;" *ngIf="!isSearchbarOpened">
+      <img src="../assets/imgs/g1.jpg" style="width: 80px;">
+    </ion-title>
+    <ion-searchbar *ngIf="isSearchbarOpened" showCancelButton="true" (search)="onSearch($event)" (ionCancel)="isSearchbarOpened=false"></ion-searchbar>
+    <ion-buttons end>
+      <button ion-button icon-only   *ngIf="!isSearchbarOpened" (click)="isSearchbarOpened=true" >
+        <ion-icon name="search"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+  <ion-title ><h3  style="color: #8b0000">BRASIL-MUNDO</h3></ion-title>
+</ion-header>
+<ion-content class="home">
+   
+
+  <ion-list *ngFor="let n of g1">
+
+    <ion-card>
+  
+        <ion-avatar item-start>
+          
+        </ion-avatar>
+       <h1 class="g1"><b>{{n.title}}</b></h1>
+        <p class="g3">{{n.publishedAt}}</p>
+     
+    
+      <img src="{{n.urlToImage}}">
+    
+    <ion-card-content>
+        <p class="g2">{{n.description}}</p>
+      </ion-card-content>
+    
+      <ion-row>
+
+        <ion-col>
+            <button ion-button clear small>
+                <ion-icon name="text"></ion-icon>
+              <div><a href="{{n.url}}">Saiba Mais</a>  </div>
+            </button>
+          </ion-col>
+        <ion-col center text-center>
+          <ion-note class="g3">
+            {{n.author}}
+          </ion-note>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+  
+   </ion-list>
+  
+
+</ion-content>

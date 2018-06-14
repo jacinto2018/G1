@@ -1,0 +1,144 @@
+<ion-header>
+  <ion-navbar >
+    <ion-buttons start>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    
+  </ion-buttons>
+    <ion-title style="background:white;" *ngIf="!isSearchbarOpened">
+      <img src="../assets/imgs/g1.jpg" style="width: 80px;">
+    </ion-title>
+    <ion-searchbar *ngIf="isSearchbarOpened" showCancelButton="true" (search)="onSearch($event)" (ionCancel)="isSearchbarOpened=false"></ion-searchbar>
+    <ion-buttons end>
+      <button ion-button icon-only   *ngIf="!isSearchbarOpened" (click)="isSearchbarOpened=true" >
+        <ion-icon name="search"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+  <ion-navbar>
+    <ion-title ><h3  style="color: #8b0000">ESPORTE</h3></ion-title>
+  </ion-navbar>
+
+</ion-header>
+  <ion-content padding>
+    <ion-card>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="../assets/imgs/g1.jpg">
+        </ion-avatar>
+        <h2>ESCALAÇÕES</h2>
+        <p>13/06/2018</p>
+      </ion-item>
+    
+      <img src="../assets/imgs/marcelo.jpg">
+    
+      <ion-card-content>
+        <p>Messi supera CR7... Veja a "Seleção da Copa" dos internautas.
+          Votação coloca quatro brasileiros e estrela belga no time ideal do Mundial da Rússia.</p>
+      </ion-card-content>
+    
+      <ion-row>
+        <ion-col>
+          <button ion-button icon-left clear small>
+            <ion-icon name="thumbs-up"></ion-icon>
+            <div>2.435</div>
+          </button>
+        </ion-col>
+    
+        <ion-col center text-center>
+          <ion-note>
+            URGENTE!
+          </ion-note>
+        </ion-col>
+      </ion-row>
+    
+    </ion-card>
+
+    <ion-card>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="../assets/imgs/g1.jpg">
+        </ion-avatar>
+        <h2>TÉCNICO ESPANHOL</h2>
+        <p>01/05/2018</p>
+      </ion-item>
+    
+      <img src="../assets/imgs/ESC.jpg">
+    
+      <ion-card-content>
+        <p>Às vésperas da Copa, Julen Lopetegui é demitido da seleção espanhola
+          Treinador foi anunciado como técnico do Real Madrid e desagradou a federação espanhola; Decisão foi tomada na manhã desta quarta-feira.</p>
+      </ion-card-content>
+    
+      <ion-row>
+        <ion-col>
+          <button ion-button icon-left clear small>
+            <ion-icon name="thumbs-up"></ion-icon>
+            <div>2.435</div>
+          </button>
+        </ion-col>
+        
+      </ion-row>
+    
+    </ion-card>
+
+    <ion-card>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="../assets/imgs/g1.jpg">
+        </ion-avatar>
+        <h2>COPA 2016</h2>
+        <p>17/06/2018</p>
+      </ion-item>
+    
+      <img src="../assets/imgs/CCC.jpg">
+    
+      <ion-card-content>
+        <p>A Copa do Mundo de 2026 será a primeira da história a ser realizada em três países. Nesta quarta-feira, em Moscou, a Fifa anunciou que a candidatura conjunta de EUA, México e Canadá venceu a de Marrocos. A candidatura tripla rece... - Veja mais em https://esporte.uol.com.br/futebol/copa-do-mundo/2018/noticias/2018/06/13/copa-2026.htm?cmpid=copiaecola</p>
+      </ion-card-content>
+    
+      <ion-row>
+        <ion-col>
+          <button ion-button icon-left clear small>
+            <ion-icon name="thumbs-up"></ion-icon>
+            <div>2.435</div>
+          </button>
+        </ion-col>
+        
+      </ion-row>
+    
+    </ion-card>
+
+    <ion-card>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="../assets/imgs/g1.jpg">
+        </ion-avatar>
+        <h2>ESTÚDIOS GLOBO</h2>
+        <p>17/06/2018</p>
+      </ion-item>
+    
+      <img src="../assets/imgs/bbb.jpg">
+    
+      <ion-card-content>
+        <p>bola rola somente na próxima quinta-feira, mas a Copa do Mundo já começou no Grupo Globo: neste domingo, Globo, SporTV e GloboEsporte.com iniciaram sua primeira cobertura integrada com 197 profissionais enviados à Rússia, além de mais de 200 produzindo conteúdo no Brasil e outros países. Há equipes nas 11 sedes do torneio e estúdios na Praça Vermelha, de onde serão exibidas participações em telejornais e programas com um dos cenários mais famosos de Moscou ao fundo.</p>
+      </ion-card-content>
+    
+      <ion-row>
+        <ion-col>
+          <button ion-button icon-left clear small>
+            <ion-icon name="thumbs-up"></ion-icon>
+            <div>2.435</div>
+          </button>
+        </ion-col>
+        
+      </ion-row>
+    
+    </ion-card>
+  </ion-content>
+  

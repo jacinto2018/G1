@@ -1,0 +1,32 @@
+ [
+        {
+            "id": null,
+            "name": "Terra.com.br",
+            "author": null,
+            "title": "Marcelo discorda de Firmino e pede respeito a Sérgio Ramos na Seleção",
+            "description": null,
+            "url": "https://www.terra.com.br/esportes/lance/marcelo-discorda-de-firmino-e-pede-respeito-a-sergio-ramos-na-selecao,c4bde69ac3f1c0293365ef2bfe64530bxtdet3z0.html",
+            "urlToImage": null,
+            "publishedAt": "2018-06-07T19:00:34Z"
+        },
+        {
+        "id": "globo",
+        "name": "Globo",
+        "author": null,
+        "title": "Pegadas de animais mais antigas do mundo são encontradas na China",
+        "description": null,
+        "url": "https://revistagalileu.globo.com/Ciencia/Arqueologia/noticia/2018/06/pegadas-de-animais-mais-antigas-do-mundo-sao-encontradas-na-china.html",
+        "urlToImage": null,
+        "publishedAt": "2018-06-07T18:22:30Z"
+        },
+        {
+        "id": null,
+        "name": "Abril.com.br",
+        "author": null,
+        "title": "Lava Jato denuncia Messer, Cabral e mais 60 em operação que mirou doleiros",
+        "description": null,
+        "url": "https://veja.abril.com.br/politica/lava-jato-denuncia-messer-cabral-e-mais-60-em-operacao-que-mirou-doleiros/",
+        "urlToImage": null,
+        "publishedAt": "2018-06-07T18:02:00Z"
+        }
+    ]
